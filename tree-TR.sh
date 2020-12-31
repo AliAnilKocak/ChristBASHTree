@@ -32,8 +32,8 @@ for ((i=1; i<=2; i++))
 new_year=$(date +'%Y')
 let new_year++
 tput setaf 1; tput bold
-tput cup $lin $((c - 6)); echo MERRY CHRISTMAS
-tput cup $((lin + 1)) $((c - 10)); echo And lots of CODE in $new_year
+tput cup $lin $((c - 6)); echo MUTLU YILLAR
+tput cup $((lin + 1)) $((c - 10)); echo Mücadele yoksa ilerleme de yoktur.  $new_year
 let c++
 k=1
 
